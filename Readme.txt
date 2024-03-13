@@ -1,0 +1,3 @@
+Binary search finds an item by repeatedly reducing the potential portion of the list the item could be in. It requires the list to be sorted in order to do this, as it uses comparisons that rely on that always being true. It's time complexity is O(log n), making it extremely fast. This is because each step makes half the remaining potential positions no longer relevant. It is preferred over Linear search because it's time complexity is far better.
+
+The Binary Search makes me think of something I heard once- that the fastest algorithms make the most assumptions. Assuming the list is sorted is a huge assumption, but ultimately pays off with a much faster algorithm. If the list is unsorted, the only search algorithm I know of that would be relevant is Linear Search.
